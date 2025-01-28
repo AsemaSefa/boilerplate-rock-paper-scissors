@@ -7,15 +7,14 @@ from unittest import main
 
 play(player, quincy, 1000)
 
-set_opponent("kris")
 print("\nTesting against Kris:")
 play(player, kris, 1000)
 
-set_opponent("mrugesh")
+
 print("\nTesting against Mrugesh:")
 play(player, mrugesh, 1000)
 
-set_opponent("abbey")
+
 print("\nTesting against Abbey:")
 play(player, abbey, 1000)
 

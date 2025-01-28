@@ -37,8 +37,7 @@ def detect_opponent(opponent_history):
 
 def player(prev_play, opponent_history=[]):
     # Track opponent's moves
-    if prev_play:git rebase --continue
-
+    if prev_play:
         opponent_history.append(prev_play)
 
     # Default to Rock for the first move
