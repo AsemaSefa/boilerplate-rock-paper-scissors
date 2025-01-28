@@ -5,14 +5,6 @@ from unittest import main
 
 
 
-# Set the global variable for the current opponent
-def set_opponent(opponent_name):
-    import RPS 
-    
-    RPS.current_opponent = opponent_name
-
-set_opponent("quincy")
-print("Testing against Quincy:")
 play(player, quincy, 1000)
 
 set_opponent("kris")
